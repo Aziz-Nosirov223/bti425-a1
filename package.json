@@ -14,5 +14,13 @@
   "devDependencies": {},
   "author": "Aziz Nosirov",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aziz-Nosirov223/bti425-a1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Aziz-Nosirov223/bti425-a1/issues"
+  },
+  "homepage": "https://github.com/Aziz-Nosirov223/bti425-a1#readme",
   "description": ""
 }

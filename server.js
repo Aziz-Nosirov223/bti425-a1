@@ -5,7 +5,7 @@
  * (including web sites) or distributed to other students.
  * 
  * Name: Aziz Nosirov   Student ID : 115673188      Date: Jan 20 2023
- * Cyclic link: 
+ * Cyclic link: https://cloudy-pinafore-fox.cyclic.app/
  */
 
 const express = require("express");
@@ -32,6 +32,8 @@ db.initialize(process.env.MONGODB_CONN_STRING).then(()=>{
 app.get("/", (req, res) => {
     res.json({"message": "API Listening"})
 })
+
+//CRUD
 
 app.post("/api/movies", (req, res) => {
     //res.status(201).json(dataService.addNewStudent(req.body)) from inclass assignment
