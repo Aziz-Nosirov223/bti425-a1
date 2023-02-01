@@ -27,7 +27,7 @@ db.initialize(process.env.MONGODB_CONN_STRING).then(()=>{
     console.log(err);
 });
 
-
+app.use(cors())
 
 app.get("/", (req, res) => {
     res.json({"message": "API Listening"})
